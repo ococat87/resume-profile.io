@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 16px;
+    font-weight: 100;
+    background-color: #C3E0E5;
+  }
+  
+  .parentContainer {
+      background-color: #f3f3f3;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      width: 90%;
+      margin: 25px auto;
+  
+      padding: 20px;
+      border-radius: 3px;
+      /* Add Flex later */
+  
+  }
+  
+  .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 8px;
+  }
+  .sub-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+  }
+  
+  .sub-header img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit:cover;
+  }
+  .header .sub-header h1 {
+      color: #41729F;
+      text-transform: uppercase;
+  }
+  .personalInformation {
+      display: flex;
+      gap: 8px;
+  }
+  
+  .hr {
+      margin-top: 10px;
+      margin-bottom: 10PX;
+     color: #41729F;
+  }
+  .bio  {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      gap: 10px;
+      text-align: justify;
+  }
+  .bio h2 {
+      text-transform: uppercase;
+      color:  #41729F;
+  }
+  .bio p {
+      line-height: 20px;
+      letter-spacing: .02em ;
+  }
+  .experience  {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      padding: 10px;
+  }
+  
+  .experience h2 {
+      color: #41729F;
+      text-transform: uppercase;
+  }
+  
+  .experience .company {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      /* Revist this later */
+      padding: 10px;
+      text-align: justify;
+  }
+  
+  
+  
+  .experience .sub-compnany {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+  }
+  .experience .sub-compnany h3{
+      color: #274472;
+      font-weight: 600;
+      text-transform: uppercase;
+  }
+  .experience .sub-compnany p {
+      font-weight: bold;
+  
+  }
+  
+  .company:last-child {
+      line-height: 20px;
+      letter-spacing: .02em ;
+  }
+  .interest {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+  }
+  
+  .interest h2 {
+      color: #41729F;
+      text-transform: uppercase;
+  }
+  
+  .interest-list ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  
+      list-style: none;
+      gap: 5px;
+      padding: 10px;
+  }
+  .interest-list ul li {
+      font-weight: bold;
+  }
+  .interest-list ul li::before {
+     content: "🔗";
+     font-size: 10px;
+     margin-right: 3px;
+  }
+  
+  .footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: 50px;
+      background-color: #C3E0E5;
+      border-radius: 3px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
