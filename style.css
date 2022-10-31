@@ -153,8 +153,8 @@
   }
   #topBtn {
       position: fixed;
-      bottom: 30px;
-      right: 50px;
+      bottom: 35px;
+      right: 250px;
       z-index: 999;
       font-size: 18px;
       border: none;
